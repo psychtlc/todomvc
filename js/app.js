@@ -50,6 +50,12 @@
 			remaining: function () {
 				return filters.active(this.todos).length;
 			},
+			finished: function () {
+				return filters.completed(this.todos).length;
+			},
+			total: function () {
+				return this.todos.length;
+			},
 			allDone: {
 				get: function () {
 					return this.remaining === 0;
