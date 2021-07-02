@@ -1,29 +1,37 @@
-# Vue.js TodoMVC Example
+# Vue.js TodoMVC Example - Tara Glover
 
-> Vue.js is a library for building interactive web interfaces.
-It provides data-driven, nestable view components with a simple and flexible API.
+Originally forked from: https://github.com/tastejs/todomvc/tree/gh-pages/examples/vue
+Story tracking can be found under 'Projects' here: https://github.com/psychtlc/todomvc/projects
 
-> _[Vue.js - vuejs.org](http://vuejs.org)_
+## Future Scope
 
-## Learning Vue.js
+The following are future scope possibilities for this project:
 
-The [Vue.js website](http://vuejs.org/) is a great resource to get started.
+* Login page with user authentication using Devise or another extension/gem
+* Persistent store beyond local storage via Vuex
+* Validation!
+* Pagination (for those foolishly long lists)
+* Ability to capture subtasks
+* Abiliuty to add and sort by due date and date/time added
+* Drag and drop functionality via Sortable js and Draggable
+* Push notification for items nearing due date
+* Ability to search across tasks
+* Utilize Active Storage and AWS S3 to enable associated attachments (docs, images)
 
-Here are some links you may find helpful:
+## Dependencies
+* Node.js
+* Vue.js
 
-* [Official Guide](http://vuejs.org/guide/)
-* [API Reference](http://vuejs.org/api/)
-* [Examples](http://vuejs.org/examples/)
-* [Building Larger Apps with Vue.js](http://v1.vuejs.org/guide/application.html)
+## Instructions
+* Fork from repository (https://github.com/psychtlc/todomvc)
+* npm install -g @vue/cli-init
+* npm run serve
+* open index.html in browser
+* happy listing!
 
-Get help from other Vue.js users:
+## Find me doing Foolish things:
 
-* [Vue.js on Twitter](https://twitter.com/vuejs)
-* [Vue.js on Gitter](https://gitter.im/vuejs/vue)
-* [Vue.js Forum](http://forum.vuejs.org)
+* Activism on Twitter (https://twitter.com/raisingActivist)
+* Chasing ducks and baking bread on Instagram (https://www.instagram.com/blendedshire/)
+* Diversity and inclusion on LinkedIn (https://www.linkedin.com/in/taralouiseglover/)
 
-_If you have other helpful links to share, or find any of the links above no longer work, please [let us know](https://github.com/tastejs/todomvc/issues)._
-
-## Credit
-
-This TodoMVC application was created by [Evan You](http://evanyou.me).
