@@ -1,6 +1,7 @@
 # Vue.js TodoMVC Example - Tara Glover
 
 Originally forked from: https://github.com/tastejs/todomvc/tree/gh-pages/examples/vue
+
 Story tracking can be found under 'Projects' here: https://github.com/psychtlc/todomvc/projects
 
 ## Future Scope
@@ -24,10 +25,8 @@ The following are future scope possibilities for this project:
 
 ## Instructions
 * Fork from repository (https://github.com/psychtlc/todomvc)
-* npm install -g @vue/cli-init
-* npm run serve
-* open index.html in browser
-* happy listing!
+* Open index.html in browser
+* Happy listing!
 
 ## Find me doing Foolish things:
 
