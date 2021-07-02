@@ -8,6 +8,20 @@
 		all: function (todos) {
 			return todos;
 		},
+		sortA: function (todos) {
+			return todos.sort(function(a, b) {
+				var titleA = a.title.toUpperCase(); // ignore upper and lowercase
+				var titleB = b.title.toUpperCase(); // ignore upper and lowercase
+				if (titleA < titleB) {
+				  return -1;
+				}
+				if (titleA > titleB) {
+				  return 1;
+				}
+				// titles must be equal
+				return 0;
+			  });
+		},
 		active: function (todos) {
 			return todos.filter(function (todo) {
 				return !todo.completed;
@@ -114,6 +128,14 @@
 
 			removeCompleted: function () {
 				this.todos = filters.active(this.todos);
+			},
+
+			sortAsc: function () {
+				this.todos = filters.sortA(this.todos);
+			},
+
+			sortDesc: function () {
+				this.todos = filters.sortA(this.todos).slice().reverse();
 			}
 		},
 

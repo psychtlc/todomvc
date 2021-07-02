@@ -11,6 +11,15 @@
 		<section class="todoapp" v-cloak>
 			<header class="header">
 				<h1>foolish todos</h1>
+				
+				<span class="todo-count">
+					<button class="clear-completed" @click="sortAsc" >Sort Asc</button>
+				</span>
+				
+				<button class="clear-completed" @click="sortDesc">
+					Sort Desc
+				</button>
+			
 				<input class="new-todo" autofocus autocomplete="off" placeholder="What needs to be done?" v-model="newTodo" @keydown.enter="addTodo">
 			</header>
 			<section class="main" v-show="todos.length">
@@ -24,6 +33,7 @@
 							<button class="destroy" @click="removeTodo(todo)"></button>
 						</div>
 						<input class="edit" type="text" v-model="todo.title" v-todo-focus="todo == editedTodo" @blur="doneEdit(todo)" @keydown.enter="doneEdit(todo)" @keydown.esc="cancelEdit(todo)">
+						
 					</li>
 				</ul>
 			</section>
@@ -52,5 +62,9 @@
 		<script src="js/store.js"></script>
 		<script src="js/app.js"></script>
 		<script src="js/routes.js"></script>
+		
+		
 	</body>
 </html>
+
+
