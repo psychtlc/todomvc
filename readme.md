@@ -24,7 +24,7 @@ The following are future scope possibilities for this project:
 * Vue.js
 
 ## Instructions
-* Fork from repository (https://github.com/psychtlc/todomvc)
+* Clone from repository (https://github.com/psychtlc/todomvc)
 * Open index.html in browser
 * Happy listing!
 
